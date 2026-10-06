@@ -1,0 +1,17 @@
+{
+  "users": [
+    { "id": "usr-amruta", "userId": "amruta", "password": "demo123", "name": "Amruta Yadav", "email": "amruta.yadav@example.com", "role": "user", "title": "People operations associate", "department": "People Operations", "status": "active", "joinedAt": "2026-02-14" },
+    { "id": "usr-melody", "userId": "melody", "password": "demo123", "name": "Melody Fernandez", "email": "melody.fernandez@example.com", "role": "admin", "title": "Workspace administrator", "department": "People Operations", "status": "active", "joinedAt": "2025-11-03" },
+    { "id": "usr-jordan", "userId": "jordan", "password": "demo123", "name": "Jordan Ellis", "email": "jordan.ellis@example.com", "role": "user", "title": "Talent partner", "department": "Talent", "status": "active", "joinedAt": "2026-01-20" },
+    { "id": "usr-samira", "userId": "samira", "password": "demo123", "name": "Samira Patel", "email": "samira.patel@example.com", "role": "user", "title": "Verification specialist", "department": "Operations", "status": "active", "joinedAt": "2026-03-12" },
+    { "id": "usr-alex", "userId": "alex", "password": "demo123", "name": "Alex Chen", "email": "alex.chen@example.com", "role": "user", "title": "People analyst", "department": "People Analytics", "status": "inactive", "joinedAt": "2025-08-28" }
+  ],
+  "records": [
+    { "id": "rec-001", "ownerId": "usr-amruta", "person": "Aarav Mehta", "company": "Northstar Labs", "role": "Senior Product Designer", "type": "Employment", "status": "Verified", "updatedAt": "2026-10-05", "reference": "VF-28419" },
+    { "id": "rec-002", "ownerId": "usr-amruta", "person": "Maya Kapoor", "company": "Goodwell Health", "role": "Operations Lead", "type": "Employment", "status": "In progress", "updatedAt": "2026-10-04", "reference": "VF-28406" },
+    { "id": "rec-003", "ownerId": "usr-amruta", "person": "Ishaan Rao", "company": "Atlas & Co.", "role": "Financial Analyst", "type": "Education", "status": "Verified", "updatedAt": "2026-10-02", "reference": "VF-28372" },
+    { "id": "rec-004", "ownerId": "usr-amruta", "person": "Zara Williams", "company": "Brightline Studio", "role": "Creative Director", "type": "Employment", "status": "Needs review", "updatedAt": "2026-09-30", "reference": "VF-28351" },
+    { "id": "rec-005", "ownerId": "usr-jordan", "person": "Noah Kim", "company": "Open Field Systems", "role": "Engineering Manager", "type": "Employment", "status": "Verified", "updatedAt": "2026-10-03", "reference": "VF-28390" },
+    { "id": "rec-006", "ownerId": "usr-samira", "person": "Priya Shah", "company": "Wildwood Group", "role": "People Director", "type": "Education", "status": "In progress", "updatedAt": "2026-10-01", "reference": "VF-28370" }
+  ]
+}

@@ -12,7 +12,8 @@ export class AuthService {
   constructor(private http: HttpClient, private router: Router) {}
 
   login(userId: string, password: string, role: UserRole): Observable<AuthResponse> {
-    return this.http.post<AuthResponse>('/api/auth/login', { userId, password, role, delay: this.delayMs() }).pipe(
+    const params = new HttpParams().set('delay', this.delayMs());
+    return this.http.post<AuthResponse>('/api/auth/login', { userId, password, role }, { params }).pipe(
       tap((response) => {
         localStorage.setItem(this.tokenKey, response.token);
         localStorage.setItem('veriflow.user', JSON.stringify(response.user));
